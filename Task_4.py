@@ -1,4 +1,5 @@
-from timeit import default_timer as timer 
+from timeit 
+import default_timer as timer 
 
 def selection_sort(list): 
     start=timer()
@@ -12,7 +13,8 @@ def selection_sort(list):
                 list[i]=temporary
     end=timer() 
   
-    print("Elapsed time for selection sort :",end-start) #printing elasped time
+    print("Elapsed time for selection sort :",end-start)
+    #sorting of the list and the execution time program code 
 def insertion_sort(list):
     start=timer()
     for i in range(1,len(list)):
@@ -27,6 +29,7 @@ def insertion_sort(list):
 
 
 list1=[]
+# open A.txt file and read
 f1 = open("A.txt", "r")
 for i in f1: 
    list1.append(int(i)) 
