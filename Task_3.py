@@ -17,7 +17,7 @@ colour = ["red","green","purple"]
 for i in range(6):
     pat.circle(radius)
     pat.right(60)
-    if i<100:
+    if i<0:
        break
 
 turtle.done()
